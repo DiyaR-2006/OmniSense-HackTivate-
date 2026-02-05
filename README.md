@@ -7,6 +7,7 @@ Unlike standard IoT prototypes, OmniSense features an Offline Fail-Safe via a lo
 - Live Simulation: offline: (https://wokwi.com/projects/453951590301233153)
                    online : (https://wokwi.com/projects/454308317695279105)
 - PPT :
+- Demo Link (youtube) : https://youtu.be/1yirrnzVDjc?feature=shared
 
 ## Key Features
 - **Climate Control**: Auto-activates Fan based on DHT22 thresholds.
