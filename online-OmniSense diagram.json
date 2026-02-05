@@ -27,13 +27,7 @@
       "attrs": { "volume": "0.1" }
     },
     { "type": "wokwi-relay-module", "id": "relay1", "top": 96.2, "left": 518.4, "attrs": {} },
-    {
-      "type": "wokwi-led",
-      "id": "led1",
-      "top": -157.2,
-      "left": 176.6,
-      "attrs": { "color": "red" }
-    },
+    { "type": "wokwi-led", "id": "led1", "top": -301.2, "left": 167, "attrs": { "color": "red" } },
     {
       "type": "wokwi-resistor",
       "id": "r1",
