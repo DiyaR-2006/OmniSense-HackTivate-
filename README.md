@@ -1,16 +1,13 @@
-## EduSense
-EduSense: An IoT-based Smart Classroom Ecosystem
+## OmniSense: Energy Optimization and Alert Smart System 
 
-EduSense bridges the gap between traditional education and smart-campus sustainability. By combining ESP32-based automation with Blynk IoT connectivity, we’ve created a low-cost, zero-invasive solution for energy management and student safety.
-Unlike standard IoT prototypes, EduSense features an Offline Fail-Safe via a local LCD interface, ensuring that critical safety alerts and energy logic persist regardless of Wi-Fi stability. It’s more than a project; it’s a blueprint for the responsive campuses of tomorrow.
+OmniSense bridges the gap between traditional energy optimization, security and sustainability. By combining ESP32-based automation with Blynk IoT connectivity, we’ve created a low-cost, zero-invasive solution for energy management and student safety.
+Unlike standard IoT prototypes, OmniSense features an Offline Fail-Safe via a local LCD interface, ensuring that critical safety alerts and energy logic persist regardless of Wi-Fi stability. It’s more than a project - something we will be needing and using in the near future.
 
 ## Quick Links
-- Live Simulation: offline: https://wokwi.com/projects/453951590301233153
-  online: https://wokwi.com/projects/454308317695279105
-  
-- Demo Video: https://youtu.be/xOdZIc2Vr3w?si=9I6aiPIF2jCoDdSJ
-- PPT:
-  
+- Live Simulation: offline: (https://wokwi.com/projects/453951590301233153)
+                   online : (https://wokwi.com/projects/454308317695279105)
+- PPT :
+
 ## Key Features
 - **Climate Control**: Auto-activates Fan based on DHT22 thresholds.
 - **Occupancy Lighting**: PIR-based energy saving.
@@ -54,7 +51,9 @@ Unlike standard IoT prototypes, EduSense features an Offline Fail-Safe via a loc
 
 ## Testing Stages & Future Scope
 - Current Limitation: Utilizing simulated inputs for RFID and IR sensors within the Wokwi environment.
-- Future Scope: Transitioning to MQ135 sensors and implementing ESP-NOW mesh networking for campus-wide scalability.
+- Future Scope: Transitioning to MQ135 sensors and implementing ESP-NOW mesh networking for wide scalability.
+
+
 
 
 ## **END OF DOCUMENTATION**
