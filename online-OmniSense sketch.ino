@@ -96,7 +96,7 @@ void loop() {
   // 2. MOTION AND LIGHT CONTROL
   int motion = digitalRead(PIR_PIN);
   
-  if (motion == HIGH) {
+  if (motion == HIGH) {occupancyCount++;
     Serial.println("Motion Detected - Light ON");
     digitalWrite(LED_PIN, HIGH);
     delay(3000);   // Maintain light for visibility
@@ -106,7 +106,7 @@ void loop() {
     delay(100);
   }
     // Count how many times motion was detected
-    occupancyCount++;
+    
     Blynk.virtualWrite(V5, occupancyCount); // Update count on Blynk
     
     delay(10000); // Keep delay of 10 seconds
